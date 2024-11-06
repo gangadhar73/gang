@@ -1,4 +1,7 @@
 resource "azurerm_resource_group" "rg" {
  name="gang"
- location="east us"  
+ location="east us" 
+  tags={
+    owner="gan"
+  } 
 }
